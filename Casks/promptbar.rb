@@ -1,8 +1,8 @@
 cask "promptbar" do
-  version "1.0.1"
-  sha256 "bec9cc6c8569a8e7934314c93c5c23825c7e37f49f30a206d00d548057c3d76d"
+  version "1.0.2"
+  sha256 "64aaef2559ed2aabd124b8e6b2d647f17ddf810000aa303f5661904e7736a6b8"
 
-  url "https://github.com/zijie-cai/PromptBar/releases/download/v#{version}/PromptBar-#{version}.zip"
+  url "https://github.com/zijie-cai/PromptBar/releases/download/v#{version}/PromptBar.zip"
   name "PromptBar"
   desc "macOS menu bar app for saving, searching, and reusing AI prompts"
   homepage "https://github.com/zijie-cai/PromptBar"
