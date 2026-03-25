@@ -10,4 +10,8 @@ cask "promptbar" do
   depends_on macos: ">= :sonoma"
 
   app "PromptBar.app"
+
+  postflight do
+    system_command "/usr/bin/open", args: ["#{appdir}/PromptBar.app"]
+  end
 end
